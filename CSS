@@ -1,0 +1,30 @@
+body {
+    background-color: pink;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.property-card {
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.property-card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.modal-content {
+    border-radius: 10px;
+}
